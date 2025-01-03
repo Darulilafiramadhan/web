@@ -1,0 +1,54 @@
+td {
+    padding: 20px 40px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+body {
+    background-image: url(/img/nv.webp);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-daftar {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tr {
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width:476px) {
+    td {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    tr {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    td {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    tr {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
